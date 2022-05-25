@@ -1,0 +1,48 @@
+2022/05/25 11:04:29.849 [I] [proc.go:255]  [main] 构建的Go版本: go1.17.1
+2022/05/25 11:04:29.849 [I] [proc.go:255]  [main] 应用当前版本: 
+2022/05/25 11:04:29.850 [I] [proc.go:255]  [main] 应用当前提交: 
+2022/05/25 11:04:29.852 [I] [proc.go:255]  [main] 应用构建时间: 
+2022/05/25 11:04:29.852 [I] [proc.go:255]  [main] 应用构建用户: 
+2022/05/25 11:04:29.964 [I] [asm_amd64.s:1581]  http server Running on http://0.0.0.0:8080
+2022/05/25 11:07:01.010 [D] [server.go:2878]  |      127.0.0.1|[47m 302 [0m|      500.3µs|   match|[44m GET     [0m /     r:/
+2022/05/25 11:07:01.020 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     2.4999ms|   match|[44m GET     [0m /login   r:/login
+2022/05/25 11:07:01.069 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     5.9997ms|   match|[44m GET     [0m /static/dist/css/adminlte.min.css
+2022/05/25 11:07:01.077 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|    15.5391ms|   match|[44m GET     [0m /static/plugins/fontawesome-free/css/all.min.css
+2022/05/25 11:07:01.091 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|    20.2159ms|   match|[44m GET     [0m /static/plugins/jquery/jquery.min.js
+2022/05/25 11:07:01.092 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     29.216ms|   match|[44m GET     [0m /static/plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022/05/25 11:07:01.093 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|    21.7159ms|   match|[44m GET     [0m /static/plugins/bootstrap/js/bootstrap.bundle.min.js
+2022/05/25 11:07:01.096 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|    24.2159ms|   match|[44m GET     [0m /static/dist/js/adminlte.min.js
+2022/05/25 11:07:01.279 [D] [server.go:2878]  |      127.0.0.1|[47m 302 [0m|        500µs|   match|[44m GET     [0m /     r:/
+2022/05/25 11:07:01.283 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     4.0009ms|   match|[44m GET     [0m /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2
+2022/05/25 11:07:01.295 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     1.5053ms|   match|[44m GET     [0m /login   r:/login
+2022/05/25 11:07:02.040 [D] [server.go:2878]  |      127.0.0.1|[43m 404 [0m|      476.5µs| nomatch|[44m GET     [0m /favicon.ico
+2022/05/25 11:07:02.044 [D] [server.go:2878]  |      127.0.0.1|[43m 404 [0m|      340.1µs| nomatch|[44m GET     [0m /favicon.ico
+2022/05/25 11:07:12.898 [D] [server.go:2878]  |      127.0.0.1|[47m 301 [0m|      999.9µs|   match|[46m POST    [0m /login   r:/login
+2022/05/25 11:07:12.908 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     4.1251ms|   match|[44m GET     [0m /     r:/
+2022/05/25 11:07:12.932 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     2.5588ms|   match|[44m GET     [0m /static/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css
+2022/05/25 11:07:12.934 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     4.0595ms|   match|[44m GET     [0m /static/plugins/datatables-responsive/css/responsive.bootstrap4.min.css
+2022/05/25 11:07:12.936 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     3.9996ms|   match|[44m GET     [0m /static/plugins/datatables-buttons/css/buttons.bootstrap4.min.css
+2022/05/25 11:07:12.937 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     4.5006ms|   match|[44m GET     [0m /static/plugins/flag-icon-css/css/flag-icon.min.css
+2022/05/25 11:07:12.945 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     3.0005ms|   match|[44m GET     [0m /static/plugins/chart.js/Chart.min.js
+2022/05/25 11:07:12.948 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|    11.5511ms|   match|[44m GET     [0m /static/dist/js/marked.min.js
+2022/05/25 11:07:12.949 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     3.6292ms|   match|[44m GET     [0m /static/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js
+2022/05/25 11:07:12.951 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     7.1296ms|   match|[44m GET     [0m /static/plugins/datatables/jquery.dataTables.min.js
+2022/05/25 11:07:12.953 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     3.4994ms|   match|[44m GET     [0m /static/plugins/datatables-responsive/js/dataTables.responsive.min.js
+2022/05/25 11:07:12.968 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     1.0915ms|   match|[44m GET     [0m /static/plugins/datatables-responsive/js/responsive.bootstrap4.min.js
+2022/05/25 11:07:13.035 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     1.3467ms|   match|[44m GET     [0m /static/plugins/datatables-buttons/js/dataTables.buttons.min.js
+2022/05/25 11:07:13.045 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     1.6109ms|   match|[44m GET     [0m /static/plugins/jszip/jszip.min.js
+2022/05/25 11:07:13.045 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     2.0125ms|   match|[44m GET     [0m /static/plugins/datatables-buttons/js/buttons.bootstrap4.min.js
+2022/05/25 11:07:13.069 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     8.5543ms|   match|[44m GET     [0m /static/plugins/pdfmake/vfs_fonts.js
+2022/05/25 11:07:13.070 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     9.5539ms|   match|[44m GET     [0m /static/plugins/pdfmake/pdfmake.min.js
+2022/05/25 11:07:13.110 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|    19.0946ms|   match|[44m GET     [0m /static/plugins/datatables-buttons/js/buttons.html5.min.js
+2022/05/25 11:07:13.116 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|    19.5937ms|   match|[44m GET     [0m /static/dist/img/logo.png
+2022/05/25 11:07:13.130 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     2.0337ms|   match|[44m GET     [0m /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2
+2022/05/25 11:07:13.159 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     1.9999ms|   match|[44m GET     [0m /static/plugins/datatables-buttons/js/buttons.print.min.js
+2022/05/25 11:07:13.179 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     1.0021ms|   match|[44m GET     [0m /static/plugins/datatables-buttons/js/buttons.colVis.min.js
+2022/05/25 11:07:17.635 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|    10.8468ms|   match|[44m GET     [0m /template   r:/template
+2022/05/25 11:07:18.610 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     6.4992ms|   match|[44m GET     [0m /markdowntest   r:/markdowntest
+2022/05/25 11:07:20.501 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     9.8525ms|   match|[44m GET     [0m /alertrouter   r:/alertrouter
+2022/05/25 11:07:21.630 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     5.9485ms|   match|[44m GET     [0m /test   r:/test
+2022/05/25 11:07:31.979 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     6.8439ms|   match|[44m GET     [0m /record   r:/record
+2022/05/25 11:07:32.511 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|      6.072ms|   match|[44m GET     [0m /alertrouter   r:/alertrouter
+2022/05/25 11:07:33.492 [D] [server.go:2878]  |      127.0.0.1|[42m 200 [0m|     5.9402ms|   match|[44m GET     [0m /     r:/

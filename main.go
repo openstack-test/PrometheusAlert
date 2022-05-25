@@ -14,7 +14,6 @@ import (
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
-	_ "github.com/mattn/go-sqlite3"
 )
 
 // Infos are set at build time use ldflags.
@@ -34,17 +33,6 @@ func IsExist(path string) bool {
 func init() {
 	db_driver := beego.AppConfig.String("db_driver")
 	switch db_driver {
-	case "sqlite3":
-		// 检查数据库文件
-		Db_name := "./db/PrometheusAlertDB.db"
-		if !IsExist(Db_name) {
-			os.MkdirAll(path.Dir(Db_name), os.ModePerm)
-			os.Create(Db_name)
-		}
-		// 注册驱动（“sqlite3” 属于默认注册，此处代码可省略）
-		orm.RegisterDriver("db_driver", orm.DRSqlite)
-		// 注册默认数据库
-		orm.RegisterDataBase("default", "sqlite3", Db_name, 10)
 	case "mysql":
 		orm.RegisterDriver("mysql", orm.DRMySQL)
 		dataSource := beego.AppConfig.String("db_user") + ":" + beego.AppConfig.String("db_password") + "@tcp(" + beego.AppConfig.String("db_host") + ":" + beego.AppConfig.String("db_port") + ")/" + beego.AppConfig.String("db_name") + "?charset=utf8mb4"
